@@ -1,0 +1,41 @@
+.area {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.area-list {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.area-list__item {
+  margin-left: 15px;
+  margin-right: 15px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.area-list__thumb {
+  display: flex;
+  position: relative;
+}
+.area-list__action {
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+.area-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  color: rebeccapurple;
+}

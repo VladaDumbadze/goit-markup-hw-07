@@ -1,0 +1,70 @@
+.header {
+  border: 1px solid #ececec;
+}
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-logo__web {
+  color: #2196f3;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.site-nav :not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav__link {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contact__item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  margin-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-contact__item .header-contact__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
