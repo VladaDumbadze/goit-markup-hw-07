@@ -19,14 +19,14 @@
   color: $main-text-color;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    color: $accent-color;
+  }
 }
 
 .cutomers-list__icon {
   fill: currentColor;
-}
-
-.cutomers-list__link:hover,
-.cutomers-list__link:focus {
-  border-color: $accent-color;
-  color: $accent-color;
 }
