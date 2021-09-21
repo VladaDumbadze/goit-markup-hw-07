@@ -524,7 +524,6 @@ textarea:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  color: rebeccapurple;
 }
 
 .team {
@@ -580,7 +579,7 @@ textarea:focus {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-  color: #757575;
+  color: #212121;
 }
 
 .socials-list {
